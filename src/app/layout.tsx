@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'Longlister',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://longlister-landing.vercel.app/og-image.png', // ✅ Full absolute URL!
         width: 1200,
         height: 630,
       },
