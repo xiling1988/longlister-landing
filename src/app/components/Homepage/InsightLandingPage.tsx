@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useRef } from 'react'
+
 import { BookingModal } from './BookingModal'
 
 // export default HomePage
@@ -8,7 +8,6 @@ import { Card, CardContent } from './Card'
 import { Input } from './Input'
 import { Textarea } from './Textarea'
 import { Button } from './Button'
-import { cn } from './cn'
 import { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import Navbar from '../Navbar'
