@@ -12,10 +12,11 @@ import { cn } from './cn'
 import { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import Navbar from '../Navbar'
+import { formspreeId } from '@/app/constants'
 
 export default function InsightLandingPage() {
   const [showModal, setShowModal] = useState(false)
-  const [state, handleSubmit, reset] = useForm('xjkwykqv')
+  const [state, handleSubmit, reset] = useForm(formspreeId as string)
 
   return (
     <>

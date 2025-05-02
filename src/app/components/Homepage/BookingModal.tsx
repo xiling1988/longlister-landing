@@ -1,5 +1,6 @@
 'use client'
 
+import { googleCalendarUrl } from '@/app/constants'
 import { useEffect } from 'react'
 
 interface BookingModalProps {
@@ -36,7 +37,7 @@ export function BookingModal({ open, onClose }: BookingModalProps) {
         </button>
         <h2 className='text-xl font-semibold mb-4'>Book a Call</h2>
         <iframe
-          src='https://calendar.google.com/calendar/appointments/schedules/AcZssZ3ZSei88JV9SZLs_BnCA74pJAu3R19Xs6V7e0N8tJiDlCWzn-1R4afTiRY0bdFm2PrMV_sgrt3X?gv=true'
+          src={googleCalendarUrl}
           width='100%'
           height='600'
           style={{ border: 'none' }}
