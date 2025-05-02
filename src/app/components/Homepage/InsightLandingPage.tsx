@@ -29,10 +29,10 @@ export default function InsightLandingPage() {
                   Your hiring process is messy?
                 </h1>
                 <p className='text-gray-600 mb-6'>
-                  We’re talking to hiring companies and recruitment agencies to
-                  understand where things go wrong. We’re curious about what
-                  works, what doesn’t, and what’s been frustrating along the
-                  way.
+                  We&apos;re talking to hiring companies and recruitment
+                  agencies to understand where things go wrong. We&apos;re
+                  curious about what works, what doesn&apos;t, and what&apos;s
+                  been frustrating along the way.
                 </p>
                 <form
                   onSubmit={handleSubmit}
@@ -112,11 +112,12 @@ export default function InsightLandingPage() {
             ) : (
               <>
                 <h1 className='text-3xl font-bold mb-2'>
-                  Thank you, we'll be in touch soon!
+                  Thank you, we&apos;ll be in touch soon!
                 </h1>
                 <div className='text-green-600 font-semibold'>
-                  We're looking forward to hearing your thoughts and insights as
-                  they'll shape tools that work better for everyone involved!
+                  We&apos;ll looking forward to hearing your thoughts and
+                  insights as they&apos;ll shape tools that work better for
+                  everyone involved!
                 </div>
               </>
             )}
