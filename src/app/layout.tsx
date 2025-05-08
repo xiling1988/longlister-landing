@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Longlister',
     description: 'The Recruitment Revolution',
-    url: 'https://longlister-landing.vercel.app',
+    url: 'https://longlister.com',
     siteName: 'Longlister',
     images: [
       {
-        url: 'https://longlister-landing.vercel.app/og-image.png',
+        url: 'https://longlister.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Longlister logo with tagline "The Recruitment Revolution"',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Longlister',
     description: 'The Recruitment Revolution',
-    images: ['https://longlister-landing.vercel.app/og-image.png'],
+    images: ['https://longlister.com/og-image.png'],
   },
   themeColor: '#fe373d',
 }
