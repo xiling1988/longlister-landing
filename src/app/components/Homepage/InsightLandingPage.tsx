@@ -12,6 +12,8 @@ import { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import Navbar from '../Navbar'
 import { formspreeId } from '@/app/constants'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function InsightLandingPage() {
   const [showModal, setShowModal] = useState(false)
@@ -106,6 +108,22 @@ export default function InsightLandingPage() {
                     >
                       Book a call with us
                     </Button>
+                    <p className='text-gray-600 mt-6 text-center'>
+                      Want to keep up with our progress? Follow us!👇
+                    </p>
+                    <Link
+                      href={'https://www.linkedin.com/company/longlister'}
+                      target='_blank'
+                    >
+                      <Image
+                        src='/linkedinIcon.png'
+                        alt='LinkedIn'
+                        width={100}
+                        height={100}
+                        unoptimized
+                        className='mx-auto mt-3 h-10 w-10'
+                      />
+                    </Link>
                   </div>
                 </form>
               </>
